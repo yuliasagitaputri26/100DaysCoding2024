@@ -1,19 +1,22 @@
 package Day10;
 
+import java.util.Scanner;
+
 public class Aritmatika {
 
     public static void main(String[] args) {
-        //Inisialisasi nilai dari variabel panjang dan lebar
-        int Panjang = 10;
-        int Lebar = 6;
+        //Membuat sebuah inputan
+        Scanner yulia = new Scanner(System.in);
+        System.out.println("masukkan angka");
 
-        //Mencari luas persegi panjang
-        int luas = Panjang * Lebar;
-        int Keliling = 2 * (Panjang + Lebar);
-
-        //Menampilkan hasil luas dan keliling dari persegi panjang
-        System.out.printf("Luas dari persegi panjang adalah %d \n ", luas);
-        System.out.printf("Keliling dari persegi panjang adalah %d \n", Keliling);
+        int Panjang = yulia.nextInt();//(nextInt) untuk menginput nilai dengan tipe data int
+        int lebar = yulia.nextInt();
+        //Rumus untuk mencari luas dan keliling persegi panjang
+        int luas = Panjang * lebar;
+        int keliling = 2 * (Panjang + lebar);
+        //Mencetak nilai menggunakan print format
+        System.out.printf("luas dari persegi panjang adalah %d \n ", luas);
+        System.out.printf("keliling dari persegi panjang adalah %d \n ", keliling);
     }
 
 }
