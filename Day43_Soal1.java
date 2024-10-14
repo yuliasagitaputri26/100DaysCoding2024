@@ -19,8 +19,8 @@ public class Hari43 {
 
         System.out.println("==================HASIL==================");
         System.out.println("Jari-jari : " + jari_jari + " " + satuan);
-        System.out.printf("Keliling  : %.5f %s\n", keliling, satuan);
-        System.out.printf("Luas      : %.5f %s^2\n", luas, satuan);
+        System.out.printf("Keliling  : %.5f \n", keliling, satuan);
+        System.out.printf("Luas      : %.5f^2\n", luas, satuan);
 
     }
 
